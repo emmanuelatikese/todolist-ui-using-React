@@ -36,30 +36,99 @@ code {
   padding-top:17px;
   display: flex;
   flex-direction: column;
-  
-
-
-
+  flex-wrap: wrap;
 }
+
 .notification_bar{
   display: flex;
   flex-direction: row;
   width:375px;
   height: 20px;
   flex-wrap: wrap;
-  
-
+  justify-content: space-between;
 }
+
 #signal-img{
   width: 21px;
   height: 14px;
+  margin-right:4px;
 }
 #figma-word{
-  font-family: 'SF Pro Text';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: -0.05px;
   color: #FFFFFF;
+  margin-top:0;
+  margin-right:4px;
+}
+#wifi-img{
+  width: 15px;
+  height: 14px;
+  margin-right:81px;
+}
+
+#time-word{
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-right:67px;
+}
+#alarm-img{
+  width: 14px;
+  height: 14px;
+  margin-right:1px;
+}
+#bluetooth-img{
+  width: 14px;
+  height: 14px;
+  margin-top:0;
+}
+#battery-percentage{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-right:3px;
+}
+#battery-img{
+  width: 26.5px;
+  height: 11.5px;
+  margin-top:3px;
+}
+.picture-content{
+  width:387px;
+  height: 186px;
+  margin-top: 16px;
+  background: linear-gradient(0.98deg, rgba(167, 213, 255, 0.85) -3.26%, rgba(196, 237, 255, 0.76) -3.24%, rgba(50, 169, 255, 0.83) 173.31%);
+  border-radius: 17px;
+}
+#snowman-img{
+  width: 198px;
+  height: 187px;
+  margin-top: 8px;
+}
+#main-topic{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 16px;
+  letter-spacing: -0.0043em;
+  color: #FFFFFF;
+  margin-top:0;
+  margin-left:0;
+  text-align: left;
+}
+.words-content{
+  margin-top:20px;
+  display: flex;
+  flex-direction: column;
 }
