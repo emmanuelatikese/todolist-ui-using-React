@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #B094FE;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,55 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App{
+  width: 390px;
+  height: 844px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.navBar-Content{
+  height: 336px;
+  width: 390px;
+  background: #1B0A31;
+  box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.7);
+  border-top-right-radius: 46px;
+  border-top-left-radius: 46px;
+  padding-left: 18px;
+  padding-right:18px;
+  padding-top:17px;
+  display: flex;
+  flex-direction: column;
+  
+
+
+
+}
+.notification_bar{
+  display: flex;
+  flex-direction: row;
+  width:375px;
+  height: 20px;
+  flex-wrap: wrap;
+  
+
+}
+#signal-img{
+  width: 21px;
+  height: 14px;
+}
+#figma-word{
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.05px;
+  color: #FFFFFF;
 }
