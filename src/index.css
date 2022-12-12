@@ -37,6 +37,7 @@ code {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .notification_bar{
@@ -126,9 +127,56 @@ code {
   margin-top:0;
   margin-left:0;
   text-align: left;
-}
-.words-content{
   margin-top:20px;
-  display: flex;
-  flex-direction: column;
+}
+
+.buttons-container{
+  display:flex;
+  flex-direction: row;
+  margin-top:0px;
+  height:35px;
+  width: auto;
+  gap:18px;
+}
+.button-content{
+  margin-top:0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: -0.0043em;
+  color: rgba(255, 255, 255, 0.61);
+  background: rgba(137, 137, 137, 0.19);
+  border-radius: 36px;
+  border:1px;
+  height:25px;
+  border-style:solid;
+  padding-top:5px;
+  border-color:#FF61C01F;
+
+}
+#dif-border{
+ border-color:#FF61C0B8;
+ width:50px;
+ 
+}
+#pr{
+  width: 101px;
+}
+#ca{
+  width: 94px;
+}
+#st{
+  width: 120px;
+}
+
+main{
+  width: 390px;
+  height:508px;
+  background: #1B0A31;
+  box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.7);
+  margin-top:auto;
+  padding-left: 18px;
+  padding-right: 18px;;
+  
 }

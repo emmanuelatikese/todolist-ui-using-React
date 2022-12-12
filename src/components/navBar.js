@@ -7,9 +7,11 @@ import Battery from "./Battery.png"
 import Snowman from "./Snowman.png"
 
 
+
 export default function NavBar(){
     return (
-        <nav className='navBar-Content'>
+    <nav className='navBar-Content'>
+
       <div className='notification_bar'>
         <img src={Signal} alt='' id='signal-img'/>
         <p id='figma-word'>Figma</p>
@@ -20,12 +22,19 @@ export default function NavBar(){
         <p id='battery-percentage'>100%</p>
         <img src={Battery} alt="" id='battery-img'/>
       </div>
+
       <div className='picture-content'>
             <img src={Snowman} alt="" id='snowman-img'/>
       </div>
-      <div className='words-content'>
+   
         <p id='main-topic'>Main items</p>
-      </div>
+   
+      <div className='buttons-container'>
+          <p className='button-content' id="dif-border">All</p>
+          <p className='button-content' id='pr'>Priorities</p>
+          <p className='button-content' id='ca'>Calendar</p>
+          <p className='button-content' id='st'>Sticky note</p>
+        </div>
     </nav>
     )
 }
