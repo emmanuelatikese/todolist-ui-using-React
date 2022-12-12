@@ -17,16 +17,16 @@ export default function MainBar(){
                     <img src={Image1} alt="" id='delete-img'/>
                 </div>
                 <div className='list-content'>
-                    <input type="checkbox" class='checkbox'/>
+                    <input type="checkbox" class='checkbox' id='content3'/>
                     <p class='list-word' id='doc-id'>Submit documentation</p>
                     <img src={Image1} alt="" id='delete-img'/>
                 </div>
-                <div className='list-content'>
-                    <input type="checkbox" class='checkbox'/>
+                <div className='list-content' id='content4'>
+                    <input type="checkbox" class='checkbox' />
                     <p class='list-word' id='study-id'>Study</p>
                     <img src={Image1} alt="" id='delete-img'/>
                 </div>
-                <div className='list-content'>
+                <div className='list-content' id='content5'>
                     <input type="checkbox" class='checkbox'/>
                     <p class='list-word' id='shop-id'>Shopping</p>
                     <img src={Image1} alt="" id='delete-img'/>

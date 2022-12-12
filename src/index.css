@@ -251,3 +251,9 @@ main{
   margin-right: 160px;
   text-decoration: line-through;
 }
+#content5, #content4{
+  background: linear-gradient(89.95deg, rgba(204, 139, 255, 0.2) 1.8%, rgba(69, 64, 201, 0) 105.69%);
+  filter: drop-shadow(0px 1px 0px #FFFFFF);
+  backdrop-filter: blur(25px);
+  border-radius: 14px;
+}
